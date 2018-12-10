@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Sub1Controller.h
 //  TADemo
 //
 //  Created by wtw on 12/10/18.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface Sub1Controller : UIViewController
 
 @end
-

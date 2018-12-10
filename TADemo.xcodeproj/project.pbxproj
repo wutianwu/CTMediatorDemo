@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		2C661EFD21BE3CBE0089A494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661EFC21BE3CBE0089A494 /* AppDelegate.m */; };
 		2C661F0021BE3CBE0089A494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661EFF21BE3CBE0089A494 /* ViewController.m */; };
-		2C661F0321BE3CBE0089A494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C661F0121BE3CBE0089A494 /* Main.storyboard */; };
 		2C661F0521BE3CC00089A494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C661F0421BE3CC00089A494 /* Assets.xcassets */; };
 		2C661F0821BE3CC00089A494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C661F0621BE3CC00089A494 /* LaunchScreen.storyboard */; };
 		2C661F0B21BE3CC00089A494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F0A21BE3CC00089A494 /* main.m */; };
 		2C661F1521BE3CC00089A494 /* TADemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F1421BE3CC00089A494 /* TADemoTests.m */; };
 		2C661F2021BE3CC00089A494 /* TADemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F1F21BE3CC00089A494 /* TADemoUITests.m */; };
+		2C661F2F21BE3D230089A494 /* Sub1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F2E21BE3D230089A494 /* Sub1Controller.m */; };
+		2C661F3221BE3D300089A494 /* Sub2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F3121BE3D300089A494 /* Sub2Controller.m */; };
+		2C661F3621BE43690089A494 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F3521BE43690089A494 /* CTMediator.m */; };
+		2C661F3A21BE5C340089A494 /* CTMediator+CTMediatorSubActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F3921BE5C340089A494 /* CTMediator+CTMediatorSubActions.m */; };
+		2C661F3D21BE5D670089A494 /* Target_Sub.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C661F3C21BE5D670089A494 /* Target_Sub.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		2C661EFC21BE3CBE0089A494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C661EFE21BE3CBE0089A494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2C661EFF21BE3CBE0089A494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2C661F0221BE3CBE0089A494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C661F0421BE3CC00089A494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C661F0721BE3CC00089A494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C661F0921BE3CC00089A494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +54,16 @@
 		2C661F1B21BE3CC00089A494 /* TADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C661F1F21BE3CC00089A494 /* TADemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TADemoUITests.m; sourceTree = "<group>"; };
 		2C661F2121BE3CC00089A494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C661F2D21BE3D230089A494 /* Sub1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sub1Controller.h; sourceTree = "<group>"; };
+		2C661F2E21BE3D230089A494 /* Sub1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sub1Controller.m; sourceTree = "<group>"; };
+		2C661F3021BE3D300089A494 /* Sub2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sub2Controller.h; sourceTree = "<group>"; };
+		2C661F3121BE3D300089A494 /* Sub2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sub2Controller.m; sourceTree = "<group>"; };
+		2C661F3421BE43690089A494 /* CTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		2C661F3521BE43690089A494 /* CTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		2C661F3821BE5C340089A494 /* CTMediator+CTMediatorSubActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CTMediatorSubActions.h"; sourceTree = "<group>"; };
+		2C661F3921BE5C340089A494 /* CTMediator+CTMediatorSubActions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CTMediatorSubActions.m"; sourceTree = "<group>"; };
+		2C661F3B21BE5D670089A494 /* Target_Sub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Sub.h; sourceTree = "<group>"; };
+		2C661F3C21BE5D670089A494 /* Target_Sub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Sub.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +114,17 @@
 		2C661EFA21BE3CBE0089A494 /* TADemo */ = {
 			isa = PBXGroup;
 			children = (
+				2C661F3321BE431A0089A494 /* CTMediator */,
 				2C661EFB21BE3CBE0089A494 /* AppDelegate.h */,
 				2C661EFC21BE3CBE0089A494 /* AppDelegate.m */,
 				2C661EFE21BE3CBE0089A494 /* ViewController.h */,
 				2C661EFF21BE3CBE0089A494 /* ViewController.m */,
-				2C661F0121BE3CBE0089A494 /* Main.storyboard */,
+				2C661F2D21BE3D230089A494 /* Sub1Controller.h */,
+				2C661F2E21BE3D230089A494 /* Sub1Controller.m */,
+				2C661F3021BE3D300089A494 /* Sub2Controller.h */,
+				2C661F3121BE3D300089A494 /* Sub2Controller.m */,
+				2C661F3B21BE5D670089A494 /* Target_Sub.h */,
+				2C661F3C21BE5D670089A494 /* Target_Sub.m */,
 				2C661F0421BE3CC00089A494 /* Assets.xcassets */,
 				2C661F0621BE3CC00089A494 /* LaunchScreen.storyboard */,
 				2C661F0921BE3CC00089A494 /* Info.plist */,
@@ -130,6 +149,25 @@
 				2C661F2121BE3CC00089A494 /* Info.plist */,
 			);
 			path = TADemoUITests;
+			sourceTree = "<group>";
+		};
+		2C661F3321BE431A0089A494 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				2C661F3721BE5C090089A494 /* catagorys */,
+				2C661F3421BE43690089A494 /* CTMediator.h */,
+				2C661F3521BE43690089A494 /* CTMediator.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		2C661F3721BE5C090089A494 /* catagorys */ = {
+			isa = PBXGroup;
+			children = (
+				2C661F3821BE5C340089A494 /* CTMediator+CTMediatorSubActions.h */,
+				2C661F3921BE5C340089A494 /* CTMediator+CTMediatorSubActions.m */,
+			);
+			path = catagorys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +275,6 @@
 			files = (
 				2C661F0821BE3CC00089A494 /* LaunchScreen.storyboard in Resources */,
 				2C661F0521BE3CC00089A494 /* Assets.xcassets in Resources */,
-				2C661F0321BE3CBE0089A494 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +301,12 @@
 			files = (
 				2C661F0021BE3CBE0089A494 /* ViewController.m in Sources */,
 				2C661F0B21BE3CC00089A494 /* main.m in Sources */,
+				2C661F3A21BE5C340089A494 /* CTMediator+CTMediatorSubActions.m in Sources */,
+				2C661F2F21BE3D230089A494 /* Sub1Controller.m in Sources */,
+				2C661F3621BE43690089A494 /* CTMediator.m in Sources */,
+				2C661F3221BE3D300089A494 /* Sub2Controller.m in Sources */,
 				2C661EFD21BE3CBE0089A494 /* AppDelegate.m in Sources */,
+				2C661F3D21BE5D670089A494 /* Target_Sub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C661F0121BE3CBE0089A494 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C661F0221BE3CBE0089A494 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C661F0621BE3CC00089A494 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5645U25UM;
 				INFOPLIST_FILE = TADemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5645U25UM;
 				INFOPLIST_FILE = TADemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
