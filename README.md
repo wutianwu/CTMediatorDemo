@@ -5,22 +5,14 @@ target-action：组件化
 
 配置：
 
-Target_Sub.h：
-
-- (id)Action_Sub:(NSDictionary *)params；
-
 Target_Sub.m：
 
-#import "SubController.h"
+引入：#import "SubController.h"
 
 - (id)Action_Sub:(NSDictionary *)params {
     SubController *subVc = [[SubController alloc] init];
     return subVc;
 }
-
-CTMediator+CTMediatorSubActions.h：
-
-- (UIViewController *)CTMediator_Sub:(NSDictionary *)params;
 
 CTMediator+CTMediatorSubActions.m：
 
@@ -34,5 +26,6 @@ NSString *const kCTMediatorActionNativeSub = @"Sub";
 }
 
 使用：
+
 UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_Sub:nil];
 [self.navigationController pushViewController:viewController animated:YES];
